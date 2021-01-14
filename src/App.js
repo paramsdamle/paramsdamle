@@ -13,27 +13,26 @@ class App extends Component {
           {/* <Nav /> */}
           
           <Switch>
-                        
 
             <Route exact path="/" component={Home}></Route>
             
             <Route exact path='/about' component={About}></Route>
 
             <Route path='/about'>
-              <Redirect exact to="/about" />
+              <Redirect to="/about" />
             </Route>
 
             <Route exact path="/projects" component={Projects}>
             </Route>
 
             <Route path="/projects">
-              <Redirect exact to="/projects" />
+              <Redirect to="/projects" />
             </Route>
 
             <ProjectRoutes />
 
             <Route>
-              <Redirect exact to="/"/>
+              <Redirect to="/"/>
             </Route>
 
             {/* <Route component={() => {

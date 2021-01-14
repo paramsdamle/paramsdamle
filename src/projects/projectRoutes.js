@@ -13,8 +13,6 @@ let ProjectRoutes = () => {
     
     <Route exact path="/ListenParty" component={ListenParty} />
 
-
-
     <Route>
         <Redirect to="/"/>
     </Route>

@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Header = styled.div`
-  background: linear-gradient(45deg, aquamarine, aqua);
+  background: linear-gradient(45deg, #faaf87, #9df5da);
   padding: 1rem 2rem;
 `
 

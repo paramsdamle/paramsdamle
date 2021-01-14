@@ -1,7 +1,7 @@
 // src/components/Nav.js
 import React from 'react'
 import styled from 'styled-components'
-import { NavLink, Redirect } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Nav = styled.nav`
   display: flex;

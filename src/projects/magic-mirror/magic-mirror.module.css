@@ -1,0 +1,71 @@
+.mirrored {
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
+
+.body {
+  font-family: HelveticaNeue;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faebd7;
+}
+
+.canvas {
+  position: absolute;
+}
+
+.h1 {
+  color: black;
+  font-size: 8vmin;
+  white-space: nowrap;
+  position: fixed;
+  left: 50%;
+  top: 1vh;
+  transform: translate(-50%, 0%);
+}
+
+.h2 {
+  color: black;
+  font-size: 3vmin;
+}
+
+.h3 {
+  color: #faebd7;
+  font-size: 2vmin;
+  position: fixed;
+  left: 50%;
+  bottom: 1vh;
+  transform: translate(-50%, 0%);
+}
+
+.video {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50% -50%);
+  transform: translate(-50%, -50%) scaleX(-1);
+  -webkit-transform: translate(-50% -50%) scaleX(-1);
+}
+
+.btn {
+  position: absolute;
+  bottom: 20vh;
+  background-color: #faebd7;
+  color: black;
+  border-radius: 0.5em;
+  font-size: 2vh;
+  border: 0.4vh solid black;
+  cursor: pointer;
+}
+.btn:active {
+  transform: translateY(0.5vh);
+}

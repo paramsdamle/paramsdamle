@@ -21,7 +21,7 @@ const About = props => <>
           In my free time, I like to watch YouTube, listen to Spotify, and write/produce my own music.
           <br/> <br/>
           The site may not look that great right now, but I'm always improving it. After a few projects, it'll really start coming together. In the meantime,
-          if you have any suggestions, you can contact me at [the domain name of this site] at gmail dot com!
+          if you have any suggestions, you can contact me at [param s damle] at gmail dot com!
         </p>
       </div>
     </PageContent>

@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Link, Switch, Redirect, NavLink } from 
 // import Projects from '../projects';
 import MagicMirror from './magic-mirror/mirror';
 import ListenParty from './listen-party/listenParty'
+import SwapiTest from './swapi-test/swapi-test'
 
 import Home from "../home";
 
@@ -12,6 +13,8 @@ let ProjectRoutes = () => {
     <Route exact path="/MagicMirror" component={MagicMirror} />
     
     <Route exact path="/ListenParty" component={ListenParty} />
+
+    <Route exact path="/SWAPItest" component={SwapiTest} />
 
     <Route>
         <Redirect to="/"/>

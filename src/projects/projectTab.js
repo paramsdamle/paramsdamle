@@ -13,6 +13,8 @@ const Tab = styled.div`
     margin-left: 50vmin;
     margin-right: 5ovmin;
     padding-bottom: 2vmin;
+    padding-left: 2vmin;
+    padding-right: 2vmin;
 `
 
 const TabHeader = styled.h1`
@@ -38,6 +40,9 @@ const TabText = styled.h2`
 `
 
 const TabIcon = styled.img`
+    float: left;
+    margin-top: 2vmin;
+    height: 13vmin;
 `
 
 export default ({name, img, desc, toLink, label}) => {

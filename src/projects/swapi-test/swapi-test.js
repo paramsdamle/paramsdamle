@@ -8,7 +8,7 @@ import home from './home.png'
 
 const GoogleImages = require('google-images');
 
-const client = new GoogleImages('6c784b559e862065e', 'AIzaSyC4vdUVBZ5ooprlsYrbxeBC-mIB3WsecHs');
+// Y29uc3QgY2xpZW50ID0gbmV3IEdvb2dsZUltYWdlcygnNmM3ODRiNTU5ZTg2MjA2NWUnLCAnQUl6YVN5QzR2ZFVWQlo1b29wcmxzWXJieGVCQy1tSUIzV3NlY0hzJyk7
 
 const HeaderText = styled.h1`
     text-align: center;
